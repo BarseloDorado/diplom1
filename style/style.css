@@ -88,7 +88,7 @@ nav a {
 /* стили для логотипа  */
 .logo {
     /* ширина и высота логотипа */
-    max-width: 50px;
+    max-width: 140px;
     height: auto;
     /* отступ между логотипом и левым краем меню */
     margin-left: 20px;
@@ -98,7 +98,7 @@ nav a {
 @media (max-width: 1000px) {
     .logo {
         /* ширина и высота логотипа */
-        max-width: 50px;
+        max-width: 140px;
         height: auto;
         /* отступ между логотипом и левым краем меню */
         margin-left: 20px;
