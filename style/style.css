@@ -92,10 +92,12 @@ nav a {
     height: auto;
     /* отступ между логотипом и левым краем меню */
     margin-left: 20px;
+ 
+ 
 }
 
 /*Меню, когда уменьшается окно*/
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .logo {
         /* ширина и высота логотипа */
         max-width: 140px;
@@ -103,7 +105,7 @@ nav a {
         /* отступ между логотипом и левым краем меню */
         margin-left: 20px;
         
-        margin-top: -105px;
+        margin-top: -113px;
         position: absolute;
     }
 
