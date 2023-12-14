@@ -95,21 +95,20 @@ nav a {
 }
 
 /*Меню, когда уменьшается окно*/
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .logo {
         /* ширина и высота логотипа */
         max-width: 50px;
         height: auto;
         /* отступ между логотипом и левым краем меню */
         margin-left: 20px;
+        
+        margin-top: -105px;
         position: absolute;
-        margin-bottom: 110px;
     }
 
     nav {
         margin-top: 0px;
-
-
     }
 
     nav li {
@@ -127,7 +126,7 @@ nav a {
         padding: 10px 0 15px;
         /* отсупы всего блока со списком  */
         margin-top: -20px;
-        margin-left: -30px;
+        margin-left: 0px;
     }
 
     /*Подчеркивание элементов меню при наведении*/
