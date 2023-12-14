@@ -9,6 +9,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 header {
     background-color: #1c1a1a;
     /* Цвет фона шапки */
@@ -23,7 +24,7 @@ header {
 }
 
 nav {
-    
+
     list-style: none;
     margin: auto;
     text-align: center;
@@ -101,7 +102,7 @@ nav a {
         height: auto;
         /* отступ между логотипом и левым краем меню */
         margin-left: 20px;
-        margin-bottom: 325px;
+
     }
 
     nav {
@@ -120,10 +121,25 @@ nav a {
 
     nav a {
         /* отсупы между элементами списка  */
-        padding: 15px 0 20px;
+        padding: 10px 0 15px;
         /* отсупы всего блока со списком  */
-        margin: 0 -30px;
+        margin-top: -20px;
+        margin-left: -30px;
     }
+
+    /*Подчеркивание элементов меню при наведении*/
+    nav a:before,
+    nav a:after {
+        content: "";
+        position: absolute;
+        height: 4px;
+        right: 50%;
+        bottom: 10px;
+        left: 50%;
+        background: #fcbf5f;
+        transition: 0.4s;
+    }
+
 
 }
 
