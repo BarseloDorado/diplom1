@@ -87,16 +87,17 @@ nav a {
 /* стили для логотипа  */
 .logo {
 
-margin-left: 0px;
-    margin-top: 0px;
+margin-left: -130px;
+    margin-top: -20px;
     /* ширина и высота логотипа */
     max-width: 140px;
     height: auto;
+    position: absolute;
 
 }
 
 /*Меню, когда уменьшается окно*/
-@media (max-width: 1140px) {
+@media (max-width: 550px) {
     .logo {
         
 margin-left: 0px;
@@ -105,7 +106,7 @@ position: relative;
     }
 
     nav {
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
     nav li {
