@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+background-attachment: fixed;
     background: white;
     /* Фоновый цвет и фоновый рисунок*/
     color: black;
@@ -97,7 +98,7 @@ margin-left: -130px;
 }
 
 /*Меню, когда уменьшается окно*/
-@media (max-width: 550px) {
+@media (max-width: 1140px) {
     .logo {
         
 margin-left: 0px;
@@ -163,16 +164,17 @@ position: relative;
 }
 
 .card {
-
+background: #b77f7f;
     max-width: 380px;
     /* максимальная ширина 300px */
-    border: 1px solid black;
+    border: 1px solid white;
     /* черная рамка толщиной в 1px */
-    margin: 20px 90px;
+    margin: 20px 40px;
     /* внешний отступ с каждой стороны по 20px */
 }
 
 .card__image {
+    border-radius: 3%;
     height: 270px;
     /* ширина 120px */
     width: 100%;
@@ -250,3 +252,7 @@ position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+
+
