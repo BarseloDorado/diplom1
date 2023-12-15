@@ -20,12 +20,11 @@ header {
     align-items: center;
     /* Центрирование по вертикали */
     justify-content: space-between;
-    /* Равномерное распределение по горизонтали */
 
 }
 
 nav {
-
+position: relative;
     list-style: none;
     margin: auto;
     text-align: center;
@@ -87,29 +86,26 @@ nav a {
 
 /* стили для логотипа  */
 .logo {
+
+margin-left: 0px;
+    margin-top: 0px;
     /* ширина и высота логотипа */
     max-width: 140px;
     height: auto;
-    /* отступ между логотипом и левым краем меню */
-    margin-left: 20px;
-
 
 }
 
 /*Меню, когда уменьшается окно*/
-@media (max-width: 500px) {
+@media (max-width: 1140px) {
     .logo {
-        /* ширина и высота логотипа */
-        max-width: 140px;
-        height: auto;
-        /* отступ между логотипом и левым краем меню */
-        margin-left: 177px;
-        margin-top: -140px;
-        position: absolute;
+        
+margin-left: 0px;
+    margin-top: 0px;
+position: relative;
     }
 
     nav {
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     nav li {
@@ -133,14 +129,20 @@ nav a {
     /*Подчеркивание элементов меню при наведении*/
     nav a:before,
     nav a:after {
-        content: "";
-        position: absolute;
-        height: 4px;
-        right: 50%;
         bottom: 10px;
-        left: 50%;
-        background: #fcbf5f;
-        transition: 0.4s;
+    }
+
+
+    header {
+        background-color: #1c1a1a;
+        /* Цвет фона шапки */
+        padding-top: 5px;
+        /* Внутренний отступ для шапки */
+        display: flex;
+        align-items: center;
+        /* Центрирование по вертикали */
+        justify-content: center;
+        /* Равномерное распределение по горизонтали */
     }
 }
 
@@ -193,12 +195,12 @@ nav a {
 @media screen and (max-width:550px) {
 
     .card {
-        
+
         width: 380px;
         /* ширина карточки 50% от ширины контейнера */
         margin: 20px auto;
         /* автоматический внешний отступ со всех сторон, но снизу 10px  */
-        
+
     }
 }
 
