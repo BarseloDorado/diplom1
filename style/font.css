@@ -1,23 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap");
+
 h1 {
-  font-family: "Oswald", sans-serif;
-  font-size: 48pt;
-  font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-size: 48pt;
+    font-weight: 500;
 }
+
 h2 {
-  font-family: "Oswald", sans-serif;
-  font-size: 26pt;
-  font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    font-size: 26pt;
+    font-weight: 400;
 }
-p {
-  font-family: "Oswald", sans-serif;
-  font-weight: 200;
-  font-size: 20pt;
+
+h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+    color: #17a232;
+    text-transform: uppercase;
+}
+
+
+.cardtext {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18pt;
+}
+
+.cardtextbold {
+   
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+
+}
+
+.cardtextpadding {
+     margin-top: -35px;
+}
+
+.button_text{
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 18pt;
 }
 
 .menu-main a {
-  color: aliceblue;
-  font-family: "Oswald", sans-serif;
-  font-size: 14pt;
-  font-weight: 400;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
 }
