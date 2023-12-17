@@ -269,12 +269,35 @@ nav a {
 /*-------------------------------------------Блок с большой картинкой-------------------------------------------*/
 
 
-/* Container holding the image and the text */
-.container {
-    width: 100%;
+/* Контейнер для картинки */
+.bigpic_container {
+    height: 100%;
     position: relative;
     text-align: center;
     color: white;
+}
+/* Картинка */
+.bigpic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* Текст на картинке */
+.bigpictext {
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1280px) {
+    h1{
+        font-size: 25pt;
+    }
 }
 
 /* Bottom left text */
@@ -305,10 +328,4 @@ nav a {
     right: 16px;
 }
 
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
